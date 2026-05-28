@@ -1,0 +1,184 @@
+# ============================================================
+#  .gitignore — Hand Gesture Computer Control (Python Project)
+# ============================================================
+
+
+# ──────────────────────────────────────────
+# 🐍 Python cache & compiled files
+# ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg
+*.egg-info/
+.eggs/
+MANIFEST
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# PyInstaller
+*.spec
+
+
+# ──────────────────────────────────────────
+# 📦 Virtual environments
+# ──────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+venv.bak/
+.python-version
+
+
+# ──────────────────────────────────────────
+# 🔐 Environment variables & secrets
+# ──────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.py
+config.local.py
+
+
+# ──────────────────────────────────────────
+# 💻 IDE & editor settings
+# ──────────────────────────────────────────
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*#
+.\#*
+
+
+# ──────────────────────────────────────────
+# 🖥️ OS-generated files
+# ──────────────────────────────────────────
+
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+
+
+# ──────────────────────────────────────────
+# 🎥 Media files (camera output / test files)
+# ──────────────────────────────────────────
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.ico
+
+# Audio
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+
+# ──────────────────────────────────────────
+# 📊 Logs & reports
+# ──────────────────────────────────────────
+*.log
+*.out
+logs/
+log/
+*.pid
+*.seed
+*.pid.lock
+
+
+# ──────────────────────────────────────────
+# 🧪 Testing & coverage
+# ──────────────────────────────────────────
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.hypothesis/
+nosetests.xml
+test-results/
+
+
+# ──────────────────────────────────────────
+# 📦 Jupyter Notebooks
+# ──────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+
+# ──────────────────────────────────────────
+# 🗃️ Misc / temporary files
+# ──────────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.swp
+tmp/
+temp/
